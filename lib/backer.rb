@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 
 class Backer
@@ -19,3 +20,13 @@ end
 
 
 
+=======
+require"pry"
+class Backer
+
+attr_reader :name
+
+def initialize(name)
+  end
+end
+>>>>>>> ba8b00a5ae17e53867d2b7f56c0a268787ac15fd
