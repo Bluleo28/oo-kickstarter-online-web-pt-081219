@@ -7,7 +7,7 @@ def initialize(title)
   @backers = []
   end
   
-def back_projects(project)
+def add_backer(project)
   backers << project 
   project.back_projects << self 
   end 
