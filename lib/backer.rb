@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require 'pry'
 
 class Backer
