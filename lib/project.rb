@@ -9,6 +9,6 @@ def initialize(title)
   
 def add_backer(project)
   backers << project 
-  project.back_projects << self 
+  project.backed_projects << self 
   end 
 end 
